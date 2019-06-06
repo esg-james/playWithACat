@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		55C375C922A99366004894DA /* LPGCat.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C375C822A99366004894DA /* LPGCat.m */; };
+		55C375CC22A9C937004894DA /* LPGNewApple.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C375CB22A9C937004894DA /* LPGNewApple.m */; };
 		602CAE411984363700C9FE49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 602CAE401984363700C9FE49 /* Foundation.framework */; };
 		602CAE431984363700C9FE49 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 602CAE421984363700C9FE49 /* CoreGraphics.framework */; };
 		602CAE451984363700C9FE49 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 602CAE441984363700C9FE49 /* UIKit.framework */; };
@@ -43,6 +44,8 @@
 /* Begin PBXFileReference section */
 		55C375C722A99366004894DA /* LPGCat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LPGCat.h; sourceTree = "<group>"; };
 		55C375C822A99366004894DA /* LPGCat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPGCat.m; sourceTree = "<group>"; };
+		55C375CA22A9C937004894DA /* LPGNewApple.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LPGNewApple.h; sourceTree = "<group>"; };
+		55C375CB22A9C937004894DA /* LPGNewApple.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPGNewApple.m; sourceTree = "<group>"; };
 		602CAE3D1984363700C9FE49 /* Phonagotchi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Phonagotchi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		602CAE401984363700C9FE49 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		602CAE421984363700C9FE49 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -137,6 +140,8 @@
 				602CAE521984363800C9FE49 /* Main.storyboard */,
 				602CAE551984363800C9FE49 /* LPGViewController.h */,
 				602CAE561984363800C9FE49 /* LPGViewController.m */,
+				55C375CA22A9C937004894DA /* LPGNewApple.h */,
+				55C375CB22A9C937004894DA /* LPGNewApple.m */,
 				55C375C722A99366004894DA /* LPGCat.h */,
 				55C375C822A99366004894DA /* LPGCat.m */,
 				602CAE581984363900C9FE49 /* Images.xcassets */,
@@ -285,6 +290,7 @@
 			files = (
 				602CAE571984363800C9FE49 /* LPGViewController.m in Sources */,
 				602CAE511984363800C9FE49 /* LPGAppDelegate.m in Sources */,
+				55C375CC22A9C937004894DA /* LPGNewApple.m in Sources */,
 				55C375C922A99366004894DA /* LPGCat.m in Sources */,
 				602CAE4D1984363700C9FE49 /* main.m in Sources */,
 			);
